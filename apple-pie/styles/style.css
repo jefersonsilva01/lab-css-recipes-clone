@@ -83,13 +83,17 @@ ul li:before {
   margin-right: 5px;
 }
 
-ol li {
+ol {
+  counter-reset: list;
+}
+
+ol > li {
   list-style: none;
   line-height: 1.5em;
 }
 
-ol li:before {
-  counter-increment: list;
+ol > li:before {
   content: counter(list, decimal) ") ";
+  counter-increment: list;
   margin-right: 5px;
 }
