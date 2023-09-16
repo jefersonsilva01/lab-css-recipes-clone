@@ -36,8 +36,8 @@ body {
 
 header {
   background: url("../images/apple-pie.jpg") no-repeat center/cover;
-  height: 80vh;
-  padding-top: 25%;
+  height: 60vh;
+  padding-top: 12%;
 }
 
 h1 {
@@ -71,11 +71,11 @@ ul,
 ol {
   margin-top: 16px;
   color: #535353;
-  line-height: 1.5em;
 }
 
 ul li {
   list-style: none;
+  line-height: 1.5em;
 }
 
 ul li:before {
@@ -85,6 +85,7 @@ ul li:before {
 
 ol li {
   list-style: none;
+  line-height: 1.5em;
 }
 
 ol li:before {
